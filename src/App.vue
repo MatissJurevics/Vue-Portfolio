@@ -10,7 +10,7 @@ import Nav from "./components/Nav.vue"
 
 <template>
 <Nav/>
-<main class="h-screen overflow-scroll snap-y snap-mandatory">
+<main class="h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory">
   <Main />
   <About />
   <Work />
