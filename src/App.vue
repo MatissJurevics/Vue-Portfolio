@@ -15,7 +15,29 @@ import Nav from "./components/Nav.vue"
   <About />
   <Work />
   <Contact />
+
+
 </main>
 
 
 </template>
+
+<style>
+ /* width */
+::-webkit-scrollbar {
+  width: 8px;
+  background:  #000b2e
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+
+} 
+</style>
