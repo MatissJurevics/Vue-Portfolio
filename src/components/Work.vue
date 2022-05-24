@@ -6,6 +6,7 @@ import Project from "./Project.vue"
   <section
     class="h-screen w-screen p-20 snap-center bg-[#000b2e] relative flex flex-col items-center sm:items-start overflow-hidden"
   >
+  
     <div class="z-10 w-full">
       <h1 class="text-5xl lg:text-7xl font-bold text-white text-center sm:text-left">My work <span class="text-white/50">//</span></h1>
       <p
@@ -41,5 +42,7 @@ import Project from "./Project.vue"
     <li
       class="animate-two animate-in absolute w-[500px] h-[500px] lg:w-[700px] lg:h-[700px] rounded-full -top-48 -left-48 bg-teal-400/50 blur-3xl"
     ></li>
+    <div class="absolute w-full h-24 bg-gradient-to-t from-blue-300/0 to-[#000b2e] top-0 left-0" />
+
   </section>
 </template>

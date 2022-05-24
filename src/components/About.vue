@@ -2,8 +2,10 @@
 
 <template>
   <section
+  id="about"
     class="h-screen w-screen p-20 snap-center bg-[#000b2e] relative flex flex-col justify-center items-center sm:items-start overflow-hidden"
   >
+
     <h1 class="text-5xl lg:text-7xl font-bold text-white">About Me <span class="text-white/50">//</span></h1>
     <p
       class="font-mono mt-4 text-white/70 w-[300px] lg:w-[600px] text-center sm:text-left"
@@ -24,5 +26,9 @@
     <li
       class="animate-two animate-in absolute w-[500px] h-[500px] lg:w-[700px] lg:h-[700px] rounded-full -top-32 -right-16 bg-pink-400/50 blur-3xl"
     ></li>
+    <div class="absolute w-full h-24 bg-gradient-to-t from-blue-300/0 to-[#000b2e] top-0 left-0" />
+
+    <div class="absolute w-full h-24 bg-gradient-to-b from-blue-300/0 to-[#000b2e] bottom-0 left-0" />
+
   </section>
 </template>

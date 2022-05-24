@@ -15,11 +15,12 @@ import "animate.css"
         I am a UI/UX designer / Web Developer / Entrepreneur trying to make awesome
         things on the web<span class="blink">|</span>
       </p>
-      <button
+      <a
+        href="#about"
         class="mt-8 p-2 w-32 bg-transparent border-2 border-pink-500 rounded-xl text-pink-500 hover:bg-pink-500 hover:text-white hover:shadow-lg hover:shadow-pink-500/30 transition duration-300"
       >
         Learn More
-      </button>
+      </a>
     </div>
 
     <li
@@ -28,6 +29,7 @@ import "animate.css"
     <li
       class="animate-two animate-in absolute w-[500px] h-[500px] lg:w-[700px] lg:h-[700px] rounded-full -bottom-32 -right-16 bg-pink-400/50 blur-3xl"
     ></li>
+    <div class="absolute w-full h-24 bg-gradient-to-b from-blue-300/0 to-[#000b2e] bottom-0 left-0" />
   </section>
 </template>
 
