@@ -58,7 +58,7 @@
         </a>
       </li>
       <li>
-        <a href="https://dribbble.com" class="mx-3">
+        <a href="https://dribbble.com/Saetom" class="mx-3">
           <span
             class="iconify mx-3 opacity-60 hover:opacity-90 transition duration-200"
             data-icon="akar-icons:dribbble-fill"
@@ -68,7 +68,7 @@
         </a>
       </li>
       <li>
-        <a href="https://linkedin.com" class="mx-3">
+        <a href="https://www.linkedin.com/in/matiss-jurevics-121162240/" class="mx-3">
           <span
             class="iconify mx-3 opacity-60 hover:opacity-90 transition duration-200"
             data-icon="akar-icons:linkedin-box-fill"
