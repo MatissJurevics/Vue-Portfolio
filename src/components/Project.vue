@@ -1,11 +1,20 @@
-<script setup></script>
+<script setup>
+  // const props = defineProps({
+  //   imgURL: "http://example.com",
+  //   GithubURL: "http://example.com",
+  //   DemoURL: "http://example.com",
+  //   Title: "Test Test",
+  //   Libraries: ["Firebase", "Tailwindcss", "Vuejs"],
+  //   Description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloribus doloremque, a molestias aperiam enim.",
+  // })
+</script>
 
 <template>
   <div
     class="w-[350px] h-full mt-4 mr-3 rounded-xl text-white bg-white/30 border-2 border-white/40 backdrop-blur-xl overflow-hidden"
   >
-    <img src="file:///home/kali/Pictures/" alt="Cover" class="w-full h-1/2 border-2 border-slate-400"/>
-    <h3 class="text-2xl font-bold mx-3">Sample Project</h3>
+    <img src="https://raw.githubusercontent.com/SeatomGuy/Firebase-ChatApp/main/mainchat.png" alt="Cover" class="w-full h-1/2 border-2 border-slate-400"/>
+    <h3 class="text-2xl font-bold mx-3">Sample Title</h3>
     <ul class="flex flex-row mx-3">
       <li class="mr-2 ">Lorem</li>
       <li class="mr-2 ">Lorem</li>

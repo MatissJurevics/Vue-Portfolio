@@ -11,7 +11,7 @@ import "animate.css"
       <h1 class="text-5xl lg:text-8xl font-bold text-white">
         Jurevics <span class="text-white/50">//</span>
       </h1>
-      <p class="font-mono mt-4 text-white/70 w-[300px] lg:w-[500px]">
+      <p class="font-mono mt-4 mb-8 text-white/70 w-[300px] lg:w-[500px]">
         I am a UI/UX designer / Web Developer / Entrepreneur trying to make awesome
         things on the web<span class="blink">|</span>
       </p>

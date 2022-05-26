@@ -1,9 +1,24 @@
 <script setup>
+import { ref } from 'vue'
 import Project from "./Project.vue"
+const projects = ref(
+  [
+    {
+      Title: "",
+      ImgURL: "",
+      GithubURL: "",
+      DemoURL: "",
+      Description: "",
+      Tags: [""],
+      Type: "",
+    },
+  ]
+)
 </script>
 
 <template>
   <section
+  id="work"
     class="h-screen w-screen p-20 snap-center bg-[#000b2e] relative flex flex-col items-center sm:items-start overflow-hidden"
   >
   
