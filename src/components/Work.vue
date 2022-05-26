@@ -72,10 +72,10 @@ const projects = ref([
 <template>
   <section
     id="work"
-    class="min-h-screen w-screen h-fit pb-16 md:px-20 md:py-10 snap-start bg-[#000b2e] relative flex flex-col items-center sm:items-start"
+    class="min-h-screen w-screen h-fit pb-16 md:px-20 md:py-14 snap-start bg-[#000b2e] relative flex flex-col items-center sm:items-start"
   >
     <div class="z-10">
-      <h1 class="text-5xl mx-auto md:mx-0 mt-4 md:mt-0 z-10 lg:text-7xl font-bold text-white">
+      <h1 class="text-5xl mx-auto md:mx-0 md:mt-0 z-10 lg:text-6xl font-bold text-white">
         My Work <span class="text-white/50">//</span>
       </h1>
       <p
@@ -87,7 +87,7 @@ const projects = ref([
         that I have a strong understanding of the fundamentals.
       </p>
     </div>
-    <ul class="w-full z-10 px-3 md:px-0 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
+    <ul class="w-full z-10 px-3 md:px-0 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-x-12 gap-y-4">
       <Project v-for="project in projects" :key="project.Title" :Title="project.Title" :Description="project.Description" :ImgURL="project.ImgURL" :GithubURL="project.GithubURL" :DemoURL="project.DemoURL"/>
     </ul>
     <li

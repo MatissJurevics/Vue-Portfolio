@@ -4,6 +4,7 @@ import "animate.css"
 
 <template>
   <section
+    id="main"
     class="h-screen w-screen snap-center justify-center md:justify-start md:px-20  bg-[#000b2e] relative flex items-center overflow-hidden"
   >
     <div class="animate-in z-10">

@@ -10,6 +10,7 @@ import Contact from "./components/Contact.vue"
 </script>
 
 <template>
+  
 
 <main class="h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory">
   <Nav />
