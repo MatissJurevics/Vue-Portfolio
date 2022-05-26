@@ -25,9 +25,9 @@ const props = defineProps({
         >
           <div class="font-bold">{{props.Title}}</div>
 
-          <div class="opacity-60 text-sm flex flex-row items-center">
-            <p>{{props.Description}}</p>
-            <a :href="GithubURL" class="">Github</a>
+          <div class="text-sm flex flex-row items-center justify-between w-full">
+            <p class="opacity-60">{{props.Description}}</p>
+            <a :href="GithubURL" class="opacity-60 hover:opacity-80 transition duration-150"><span class="iconify" data-icon="ant-design:github-filled" data-width="40" data-height="40"></span></a>
           </div>
         </div>
       </div>
