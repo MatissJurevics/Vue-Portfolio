@@ -2,6 +2,7 @@
 
 <template>
   <section
+    id="contact"
     class="w-screen h-screen p-10 lg:p-20 overflow-hidden bg-[#000b2e] snap-start flex flex-col xl:flex-row items-center md:justify-between relative"
   >
     <div class="min-w-[370px]">

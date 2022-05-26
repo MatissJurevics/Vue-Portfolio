@@ -1,4 +1,5 @@
 <script setup>
+import Nav from "./components/Nav.vue"
 import Main from "./components/Main.vue"
 import About from "./components/About.vue"
 import Work from "./components/Work.vue"
@@ -11,6 +12,7 @@ import Contact from "./components/Contact.vue"
 <template>
 
 <main class="h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory">
+  <Nav />
   <Main />
   <About />
   <Work />
