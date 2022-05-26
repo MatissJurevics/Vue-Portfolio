@@ -17,7 +17,7 @@ const projects = ref([
     Title: "Markdown Editor",
     ImgURL:
       "https://raw.githubusercontent.com/SeatomGuy/Markdown-Editor/main/Screenshot%202022-03-06%20at%2011-59-11%20Svelte%20%2B%20TS%20%2B%20Vite%20App.png",
-    GithubURL: "https://raw.githubusercontent.com/SeatomGuy/Markdown-Editor",
+    GithubURL: "https://github.com/SeatomGuy/Markdown-Editor",
     DemoURL: "https://projects.markdowneditor.saetom.xyz/",
     Description:
       "An application that allows you to imput text as markdown and shows a preview of your input",
@@ -39,7 +39,7 @@ const projects = ref([
     Title: "JS Raycasting Engine",
     ImgURL:
       "https://raw.githubusercontent.com/SeatomGuy/JS-Raycaster/main/Screenshot%202022-03-21%20at%2011-43-27%20%F0%9F%9A%80%20Raycaster%20%F0%9F%9A%80.png",
-    GithubURL: "https://raw.githubusercontent.com/SeatomGuy/JS-Raycaster",
+    GithubURL: "https://github.com/SeatomGuy/JS-Raycaster",
     DemoURL: "https://projects.raycaster.saetom.xyz/",
     Description:
       "A Javascript application that turns a 2D map into a 3D environment using a raycasting engine that I made from scratch.",
@@ -51,7 +51,7 @@ const projects = ref([
     ImgURL:
       "https://raw.githubusercontent.com/SeatomGuy/svelte-github-search/main/details.png",
     GithubURL:
-      "https://raw.githubusercontent.com/SeatomGuy/svelte-github-search",
+      "https://github.com/SeatomGuy/svelte-github-search",
     DemoURL: "https://projects.githubsearch.saetom.xyz/",
     Description:
       "A web app that uses the github API to allow you to look up github accounts and browse repositories, get links for git clone and open the repo in the github IDE",
