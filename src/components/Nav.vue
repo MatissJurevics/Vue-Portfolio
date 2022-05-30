@@ -39,7 +39,7 @@
       </li>
       <li>
         <a
-          href="#contact"
+          href="https://drive.google.com/file/d/1_dWwJQ5GLbN0uof5S5uUtA1PkSyvS2lX/view?usp=sharing"
           class="mx-3 py-1 hover:text-white/90 hover:border-white/70  border-white/0 transition duration-200"
         >
           CV/Resume
@@ -48,7 +48,7 @@
     </ul>
     <ul class="flex flex-row items-center text-white/60 text-lg">
       <li>
-        <a href="https://github.com/seatomGuy">
+        <a href="https://github.com/matissjurevics">
           <span
             class="iconify mx-3 opacity-60 hover:opacity-90 transition duration-200"
             data-icon="akar-icons:github-fill"
