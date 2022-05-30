@@ -1,14 +1,25 @@
-<script></script>
+<script setup>
+import { ref } from 'vue'
+const show = ref(false)
+function changeShow() {
+  console.log(screen.width)
+  show = !show;
+  console.log(show)
+} 
+const screenw = ref(screen.width < 768)
+
+</script>
 
 <template>
+
   <nav
-    class="fixed z-20 flex flex-row items-center justify-between px-4 w-screen overflow-hidden h-16"
+    class="fixed z-20 flex flex-col md:flex-row items-center bg-black/50 md:bg-transparent  md:justify-between md:px-4 w-screen overflow-hidden h-30 md:h-16"
   >
     <ul class="flex flex-row text-white/60 text-lg">
       <li>
         <a
           href="#main"
-          class="ml-16 mr-3 py-1 hover:text-white/90 hover:border-white/70  border-white/0 transition duration-200"
+          class="md:ml-16 mr-3 py-1 hover:text-white/90 hover:border-white/70  border-white/0 transition duration-200"
         >
           Main
         </a>
@@ -80,7 +91,7 @@
       <li>
         <a
           href="https://blog.saetom.xyz"
-          class="mr-16 ml-3 opacity-60 hover:opacity-90 transition duration-200"
+          class="md:mr-16 ml-3 opacity-60 hover:opacity-90 transition duration-200"
           >Blog</a
         >
       </li>
