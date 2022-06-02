@@ -13,7 +13,7 @@ import "animate.css"
         Jurevics <span class="text-white/50">//</span>
       </h1>
       <p class="font-mono mt-4 mb-8 text-white/70 w-[300px] lg:w-[500px]">
-        I am a Web Developer trying to make awesome things!<span class="blink">|</span>
+        I am a Software Engineer trying to make awesome things on the web!<span class="blink">|</span>
       </p>
       <a
         href="#about"

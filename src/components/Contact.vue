@@ -56,7 +56,7 @@ export default {
         class="border-pink-500/60 focus:border-pink-500/90 hover:border-pink-500/90 border-2 bg-transparent outline-none rounded-xl w-full py-2 px-3 text-white/70"
       />
       <input
-        type="text"
+        type="email"
         name="email"
         placeholder="Your Email"
         class="mt-4 border-pink-500/60 focus:border-pink-500/90 hover:border-pink-500/90 border-2 bg-transparent outline-none rounded-xl w-full py-2 px-3 text-white/70"
