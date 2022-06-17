@@ -1,12 +1,4 @@
 <script setup>
-import { ref } from 'vue'
-const show = ref(false)
-function changeShow() {
-  console.log(screen.width)
-  show = !show;
-  console.log(show)
-} 
-const screenw = ref(screen.width < 768)
 
 </script>
 

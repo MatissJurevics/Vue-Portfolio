@@ -72,7 +72,7 @@ const projects = ref([
 <template>
   <section
     id="work"
-    class="min-h-screen w-screen h-fit pb-16 md:px-20 md:py-14 snap-start bg-[#000b2e] relative flex flex-col items-center sm:items-start"
+    class="min-h-screen w-screen h-fit pb-16 md:px-20 pt-12 md:py-14 snap-start bg-[#000b2e] relative flex flex-col items-center sm:items-start"
   >
     <div class="z-10">
       <h1 class="text-5xl mx-auto md:mx-0 md:mt-0 z-10 lg:text-6xl font-bold text-white">
