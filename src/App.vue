@@ -34,7 +34,7 @@ import Contact from "./components/Contact.vue";
             <li><a href="#contact">Contact Me</a></li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1_dWwJQ5GLbN0uof5S5uUtA1PkSyvS2lX/view?usp=sharing"
+                href="Resume.pdf"
                 >Resume / CV</a
               >
             </li>

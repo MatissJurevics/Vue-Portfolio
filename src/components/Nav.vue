@@ -42,7 +42,7 @@
       </li>
       <li>
         <a
-          href="https://drive.google.com/file/d/1_dWwJQ5GLbN0uof5S5uUtA1PkSyvS2lX/view?usp=sharing"
+          href="../assets/Resume.pdf"
           class="mx-3 py-1 hover:text-white/90 hover:border-white/70  border-white/0 transition duration-200"
         >
           CV/Resume
