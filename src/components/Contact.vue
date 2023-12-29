@@ -7,7 +7,7 @@ export default {
     sendEmail() {
       emailjs.sendForm('service_4ia4s9i', 'template_but8u3v', this.$refs.form, 'd0vOCDiHKgAlgjbLA')
         .then((result) => {
-            alert("email sent")
+            alert("Something went wrong")
         }, (error) => {
             alert("Something went wrong")
         });

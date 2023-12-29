@@ -25,15 +25,15 @@ const projects = ref([
     Type: "webdev",
   },
   {
-    Title: "Decentralised Task Manager",
+    Title: "Gene AI",
     ImgURL:
-      "https://raw.githubusercontent.com/SeatomGuy/Solidity-task-manager/main/ethereumtask.png",
-    GithubURL: "https://github.com/SeatomGuy/Solidity-task-manager",
-    DemoURL: "https://projects.soliditytasks.saetom.xyz/",
+      "https://github.com/MatissJurevics/Gene-AI/raw/master/Demo.gif",
+    GithubURL: "https://github.com/MatissJurevics/Gene-AI",
+    DemoURL: "https://github.com/MatissJurevics/Gene-AI",
     Description:
-      "A task manager that uses a solidity smart contract on the ropsten test net",
-    Tags: ["Vuejs", "Tailwindcss", "Solidity", "Ethersjs", "Ropsten-Testnet"],
-    Type: "webdev",
+      "Gene is an obsidian plugin which uses LLMS to help improve your notes by allowing you to modify, explain and simplify your notes",
+    Tags: ["Typescript", "GPT-4", "GPT-3.5-Turbo"],
+    Type: "Typescript",
   },
   {
     Title: "JS Raycasting Engine",
@@ -53,7 +53,7 @@ const projects = ref([
     GithubURL:
       "https://github.com/SeatomGuy/svelte-github-search",
     DemoURL: "https://projects.githubsearch.saetom.xyz/",
-    Description:
+    Description:  
       "A web app that uses the github API to allow you to look up github accounts and browse repositories, get links for git clone and open the repo in the github IDE",
     Tags: ["Svelte", "Tailwindcss", "Github API"],
     Type: "webdev",
